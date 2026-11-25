@@ -1,0 +1,1 @@
+{"Statement":[{"Action":["s3:PutObject","s3:GetObject","s3:DeleteObject","s3:ListBucket"],"Effect":"Allow","Resource":["arn:aws:s3:::eventhub-images-<your-name>-ap-south-1","arn:aws:s3:::eventhub-images-<your-name>-ap-south-1/*"],"Sid":"EventHubS3LeastPrivilege"}],"Version":"2012-10-17"}
